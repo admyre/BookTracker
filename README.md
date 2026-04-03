@@ -9,7 +9,7 @@ This project is a simple Java command-line application that uses JDBC with SQLit
 
 ## Run
 
-From `C:\Users\Luukt\Documents\Playground`:
+From the project folder:
 
 ```powershell
 mvn compile
@@ -33,9 +33,12 @@ mvn exec:java
 6. Count users who read a specific book
 7. Show total pages read
 8. Count users who read more than one book
-9. Exit
+9. Add a book
+10. Add a reading habit
+11. Exit
 
 ## Notes
 
-- The dataset file used by the app is `reading_habits_dataset.xlsx` in the project folder.
+- The dataset file used by the app is `reading_habits_dataset.xlsx` in the project root folder.
+- The SQLite database file is `booktracker.db` in the project root folder.
 - SQL is used for the aggregate calculations such as `AVG`, `SUM`, `GROUP BY`, and `HAVING`.
