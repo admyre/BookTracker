@@ -9,7 +9,7 @@ This project is a simple Java command-line application that uses JDBC with SQLit
 
 ## Run
 
-From `C:\Users\Luukt\Documents\Playground`:
+From file path:
 
 ```powershell
 mvn compile
